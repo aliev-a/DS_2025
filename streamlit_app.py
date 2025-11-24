@@ -101,4 +101,4 @@ st.dataframe(df_prediction,
             }, hide_index=True)
 
 penguins_species = np.array(['Adelie', 'Gentoo', 'Chinstrap'])
-st.succes(str(penguins_species[prediction[0]]))
+st.success(str(penguins_species[prediction[0]]))
