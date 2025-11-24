@@ -48,6 +48,7 @@ target_mapper = {'Adelie':0,
 def target_encode(val):
   return target_mapper[val]
 
+# Split on train and input
 y = y_raw.apply(target_encode)
 X = df_penguins[1:]
 
